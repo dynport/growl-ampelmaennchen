@@ -1,5 +1,13 @@
-== DESCRIPTION:
+== USAGE:
+  # general
   Growl::Ampelmaennchen.<error,failed,info,passed,pending> => <path/to/file.png>
+  
+  # with growlnotify command line tool
+  require "rubygems"
+  require "growl-ampelmaennchen"
+  
+  system(%(growlnotify -m "Message" -t "Title" --image #{Growl::Ampelmaennchen.passed}))
+
 == LICENSE:
 
 (The MIT License)
