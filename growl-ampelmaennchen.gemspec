@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Tobias Schwab"]
   s.email       = ["tobias.schwab@dynport.de"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Simple ampelmaennchen icons to be used with growl}
+  s.description = %q{Simple ampelmaennchen icons to be used with growl (extracted from https://github.com/svoop/autotest-growl)}
 
   s.rubyforge_project = "growl-ampelmaennchen"
 
