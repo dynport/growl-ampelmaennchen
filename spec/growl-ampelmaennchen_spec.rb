@@ -1,10 +1,5 @@
-require File.expand_path("../../lib/growl-ampelmaennchen.rb", __FILE__)
-$:<< File.expand_path("../../lib", __FILE__)
-RSpec.configure do |c|
-  c.filter_run :focus => true
-  c.run_all_when_everything_filtered = true
-end
-
+require "spec_helper"
+require "growl-ampelmaennchen"
 
 describe "Growl::Ampelmaennchen" do
   describe "asset_root" do
