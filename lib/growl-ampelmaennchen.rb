@@ -7,7 +7,7 @@ module Growl
         File.expand_path("../../assets", __FILE__)
       end
       
-      [:error, :failed, :info, :passed, :pending].each do |method|
+      [:blue, :green, :grey, :red, :yellow].each do |method|
         define_method(method) do
           "#{asset_root}/#{method}.png"
         end

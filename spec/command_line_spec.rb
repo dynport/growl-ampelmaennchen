@@ -3,6 +3,6 @@ require "growl-ampelmaennchen"
 
 describe "Hello World" do
   it "should run" do
-    system(%(growlnotify -m "Message" -t "Title" --image #{Growl::Ampelmaennchen.passed}))
+    system(%(growlnotify -m "Message" -t "Title" --image #{Growl::Ampelmaennchen.green}))
   end
 end

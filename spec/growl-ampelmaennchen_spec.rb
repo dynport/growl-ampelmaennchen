@@ -12,7 +12,7 @@ describe "Growl::Ampelmaennchen" do
     end
   end
   
-  %w(error failed info passed pending).each do |key|
+  %w(blue green grey red yellow).each do |key|
     describe "##{key}" do
       it "returns the correct string" do
         Growl::Ampelmaennchen.send(key).should == File.expand_path("../../assets/#{key}.png", __FILE__)
