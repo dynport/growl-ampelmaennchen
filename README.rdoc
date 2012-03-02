@@ -8,6 +8,10 @@
   
   system(%(growlnotify -m "Message" -t "Title" --image #{Growl::Ampelmaennchen.green}))
 
+
+== THANX:
+Sven Schwyn (http://www.bitcetera.com) (for creating the icons for https://github.com/svoop/autotest-growl)
+
 == LICENSE:
 
 (The MIT License)
