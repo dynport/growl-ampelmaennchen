@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["tobias.schwab@dynport.de"]
   s.homepage    = ""
   s.summary     = %q{Simple ampelmaennchen icons to be used with growl}
-  s.description = %q{Simple ampelmaennchen icons to be used with growl (extracted from https://github.com/svoop/autotest-growl)}
+  s.description = %q{Simple ampelmaennchen icons to be used with growl (extracted from https://github.com/svoop/autotest-growlr)}
 
   s.rubyforge_project = "growl-ampelmaennchen"
 
@@ -20,5 +20,6 @@ Gem::Specification.new do |s|
 
   # specify any dependencies here; for example:
   s.add_development_dependency "rspec", '2.8.0'
+  s.add_development_dependency "rake", "0.9.2"
   # s.add_runtime_dependency "rest-client"
 end
